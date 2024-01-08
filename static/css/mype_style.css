@@ -1,0 +1,530 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+.text-lg{
+    font-size: 40px;
+}
+.text-md{
+    font-size: 30px;
+}
+.text-sm{
+    font-size: 23px;
+}
+.navbar{
+    background: #1b1a1a;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar .container .title-header h3{
+    font-size: 30px;
+    color: #ccc;
+    font-family: Tahoma;
+}
+.navbar .container .navbar-menu ul{
+    display: flex;
+}
+.navbar .container .navbar-menu ul li{
+    margin: 5px 15px;
+}
+.navbar .container .navbar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .navbar-menu ul li a{
+    padding: 5px 10px;
+    color: #ddd;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    transition: 0.2s;
+}
+.btn{
+    background: #ddd;
+    color: #1b1a1a;
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    transition: 0.3s;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-primary{
+    background: #4891ff;
+    color: #ddd;
+}
+.download-btn:hover{
+    background: #bbb9b9;
+    color: black;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.navbar .container .navbar-menu .menu li a.active{
+    color: #a8a4a4;
+}
+.navbar .container .navbar-menu .menu li a:hover{
+    color: #a8a4a4;
+}
+
+.cast{
+    background: url('../images/phone_code.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+}
+.cast .cast-content{
+    background: rgba(0,0,0,0.7);
+    height: inherit;
+}
+.cast .cast-content .cast-heading{
+    text-align: center;
+    padding: 40px 0;
+}
+.cast .cast-content .cast-heading h3{
+    color: #ccc;
+    font-family: 'Segoe UI';
+}
+
+.cast .cast-content .cast-heading p{
+    color: #ddd;
+    font-family: 'Segoe UI';
+}
+.get-started-cont{
+    text-align: center;
+    margin: 60px 0;
+}
+.get-started-cont .get-started-btn{
+    color: #ddd;
+    border: 0.5px solid #ccc;
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    transition: 0.3s;
+    font-weight: 600;
+}
+.get-started-cont .get-started-btn:hover{
+    background: rgba(0,0,0,0.8);
+}
+
+.login-cast .login-cast-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    background: #1b1a1a;
+    margin: 30px 20px;
+    border-radius: 10px;
+}
+.login-cast .login-cast-grid .mype-login-img{
+    margin: 20px 30px;
+}
+.login-cast .login-cast-grid .mype-login-text{
+    margin: 30px 30px;
+    text-align: center;
+}
+.login-cast .login-cast-grid .mype-login-text p{
+    text-align: center;
+    font-size: 30px;
+    color: #bbb9b9;
+    font-family: 'Segoe UI';
+    margin: 100px 0;
+}
+.mype-login-img img{
+    max-width: 100%;
+    height: 400px;
+}
+.options{
+    margin: 0 30px;
+    padding: 30px 0;
+}
+.options-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.bg-dark{
+    background: #1b1a1a;
+    color: white;
+}
+.bg-light{
+    background: #ddd;
+    color: #1b1a1a;
+}
+.card{
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.card-heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-heading h3{
+    font-size: 30px;
+    font-family: 'Segoe UI';
+}
+.card-text{
+    margin: 50px 20px;
+}
+.card-text p{
+    font-size: 17px;
+    font-family: 'Segoe UI';
+}
+.features{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.features h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+}
+.features ul{
+    margin: 50px 20px;
+}
+.features ul li{
+    list-style: disc;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    line-height: 2.2;
+}
+.card-buttons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-buttons{
+    margin: 30px 0;
+}
+.work-environment{
+    margin: 30px 20px;
+}
+.work-environment .work-env-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    border-radius: 10px;
+}
+.work-env-img, .work-env-text{
+    margin: 20px 30px;
+}
+.work-env-text p{
+    text-align: center;
+    font-size: 30px;
+    color: #1b1a1a;
+    font-family: 'Segoe UI';
+    margin: 100px 0;
+}
+.env-button{
+    text-align: center;
+    margin: 30px 0;
+}
+.footer{
+    padding: 30px 40px;
+}
+.footer .footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+.get-updates-form{
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.get-updates-form form{
+    display: block;
+}
+.get-updates-form form label{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+}
+.get-updates-form form .email{
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 10px;
+    outline: 0;
+}
+.get-updates-form form .email.change-style{
+    border: 1px solid rgb(206, 32, 32);
+}
+.get-updates-form form .email.input{
+    border: 1px solid rgb(40, 182, 40);
+}
+.get-updates-form form input[type='submit']{
+    margin: 10px 15px;
+    border: 0;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 90%;
+}
+.social-media p, .company p{
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    margin-bottom: 10px;
+}
+.social-media ul li a, .company ul li a{
+    color: #bbb9b9;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+
+
+.mobile-navbar-menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -700px;
+    width: 70%;
+    height: 100%;
+    z-index: 100;
+    background-color: #ccc;
+    transition: right 0.5s ease-in-out;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.mobile-navbar-menu.display-menu{
+    right: 0;
+}
+.mobile-navbar-menu ul li a{
+    padding: 5px 10px;
+    color: #1b1a1a;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    transition: 0.2s;
+}
+.mobile-navbar-menu ul li{
+    margin: 20px 0;
+}
+.mobile-navbar-menu ul{
+    margin: 30px 50px;
+}
+.mobile-navbar-menu .download-btn-cont{
+    margin: 30px 50px;
+}
+.menu-btn{
+    display: none;
+    background: none;
+    border: 0;
+    padding: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
+.menu-btn .menu-line{
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 6px 0;
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    z-index: 2000;
+    position: fixed;
+    top: -1000px;
+    transition: top 0.5s ease-in-out;
+}
+.about.display{
+    top: 0;
+}
+.about .about-content{
+    background: #fff;
+    width: 70%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.faqs{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    z-index: 2000;
+    position: fixed;
+    top: -1000px;
+    transition: top 0.5s ease-in-out;
+}
+.faqs.display{
+    top: 0;
+}
+.faqs .faqs-content{
+    background: #fff;
+    width: 70%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.close{
+    background-color: #fff;
+    color: black;
+    border: 0;
+    font-size: 50px;
+    cursor: pointer;
+}
+.close-faqs{
+    background-color: #fff;
+    color: black;
+    border: 0;
+    font-size: 50px;
+    cursor: pointer;
+}
+.features-d{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    z-index: 2000;
+    position: fixed;
+    top: -1000px;
+    transition: top 0.5s ease-in-out;
+}
+.features-d.display{
+    top: 0;
+}
+.features-d .features-content{
+    background: #fff;
+    width: 70%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.close-features{
+    background-color: #fff;
+    color: black;
+    border: 0;
+    font-size: 50px;
+    cursor: pointer;
+}
+.a-heading{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+}
+.about-text{
+    text-align: center;
+    margin: 20px 40px;
+}
+.about-text p{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    line-height: 1.2;
+}
+.faqs-text{
+    margin: 20px 20px;
+}
+.faqs-text h3{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 20px;
+}
+.features-list{
+    margin: 20px 50px;
+}
+.features-list ul li{
+    line-height: 2;
+    color: #1b1a1a;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    list-style: square;
+}
+
+.download-d{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    z-index: 2000;
+    position: fixed;
+    top: -1000px;
+    transition: top 0.5s ease-in-out;
+}
+.download-d.display{
+    top: 0;
+}
+.download-d .download-content{
+    background: #fff;
+    width: 70%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.close-download{
+    background-color: #fff;
+    color: black;
+    border: 0;
+    font-size: 50px;
+    cursor: pointer;
+}
+.dwnload-info{
+    text-align: center;
+}
+.dwnload-info p{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+}
+@media (max-width: 670px){
+    .navbar .container .navbar-menu{
+        display: none;
+    }
+    .text-lg{
+        font-size: 30px;
+    }
+    .text-sm{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 970px){
+    .navbar .container .navbar-menu{
+        display: none;
+    }
+    .options-grid{
+        grid-template-columns: 1fr;
+    }
+    .login-cast .login-cast-grid{
+        grid-template-columns: 1fr;
+    }
+    .work-environment .work-env-grid{
+        grid-template-columns: 1fr;
+    }
+    .footer .footer-grid{
+        grid-template-columns: 1fr;
+    }
+    .mobile-navbar-menu{
+        display: block;
+    }
+    .menu-btn{
+        display: block;
+    }
+}

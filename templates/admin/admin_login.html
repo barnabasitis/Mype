@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='ad_css.css')}}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/mype_logo.PNG') }}">
+    <title>Admin - Login</title>
+</head>
+<body>
+    <div class="login-body">
+        <div class="login-form">
+            {% for msg in get_flashed_messages() %}
+                <p>{{msg}}</p>
+            {% endfor %}
+            <form action="" method="POST">
+                <label for="username">Username</label><br>
+                <input type="text" name="username" id=""><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id=""><br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

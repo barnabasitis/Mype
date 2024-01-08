@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mype_style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/mype_logo.PNG') }}">
+    <title>Mype</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="title-header">
+                <h3>Mype</h3>
+            </div>
+            <div class="navbar-menu">
+                <ul class="menu">
+                    <li ><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about" class="mb-about-mype">About</a></li>
+                    <li><a href="#faqs" class="faqs-mype">FAQs</a></li>
+                    <li><a href="#features" class="features">Features</a></li>
+                </ul>
+                <div class="download-btn-cont">
+                    <a class="btn download-btn" href="#download">Download</a>
+                </div>
+            </div>
+            <button class="menu-btn">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </button>
+            <div class="mobile-navbar-menu">
+                <ul class="menu">
+                    <li ><a class="active" href="#">Home</a></li>
+                    <li><a href="#about" class="about-mype">About</a></li>
+                    <li><a href="#faqs" class="mb-faqs-mype">FAQs</a></li>
+                    <li><a href="#features" class="mb-features">Features</a></li>
+                </ul>
+                <div class="download-btn-cont">
+                    <a class="btn mb-download-btn" href="#download">Download</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <a name="home"></a>
+    <section class="cast">
+        <div class="cast-content">
+            <div class="cast-heading">
+                <h3 class="text-lg">
+                A powerful tool for computer programmers
+                </h3>
+                <p class="text-sm">
+                    Save, organise and manage projects of different categories
+                </p>
+            </div>
+            <div class="get-started-cont">
+                <a href="#getstarted" class="get-started-btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="options">
+        <div class="options-grid">
+            <div class="card bg-light">
+                <div class="card-heading">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="card-text">
+                    <p>
+                        Create and manage web based projects
+                    </p>
+                </div>
+                <hr>
+                <div class="features">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>Local webserver</li>
+                        <li>Enhanced built in text-editor</li>
+                        <li>Built in web browser</li>
+                    </ul>
+                </div>
+                <div class="card-buttons">
+                    <a href="#download" class="btn web-card-download btn-primary">Download</a>
+                </div>
+                
+            </div>
+            <div class="card bg-dark">
+                <div class="card-heading">
+                    <h3>Software Development</h3>
+                </div>
+                <div class="card-text">
+                    <p>
+                        Manage software projects of all languages
+                    </p>
+                </div>
+                <hr>
+                <div class="features">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>Built in editor</li>
+                        <li>Supports all programming languages</li>
+                        <li>Provides offline features</li>
+                    </ul>
+                </div>
+                <div class="card-buttons">
+                    <a href="#download" class="btn web-card-download-t btn-primary">Download</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <div class="close-btn">
+                <button class="close">
+                    &times;
+                </button>
+            </div>
+            <div class="a-heading">
+                <h4>About Mype</h4>
+            </div>
+            <div class="about-text">
+                <p>
+                    Mype is an open source software built with python to manage, organise and save projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faqs">
+        <div class="faqs-content">
+            <div class="close-btn">
+                <button class="close-faqs">
+                    &times;
+                </button>
+            </div>
+            <div class="a-heading">
+                <h4>FAQs</h4>
+            </div>
+            <div class="faqs-text">
+                <h3>
+                    What features does mype have?
+                </h3>
+                <h3>
+                    Is the Mype Software free?
+                </h3>
+                <h3>
+                    What does the mype software do?
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-d">
+        <div class="features-content">
+            <div class="close-btn">
+                <button class="close-features">
+                    &times;
+                </button>
+            </div>
+            <div class="a-heading">
+                <h4>Features</h4>
+            </div>
+            <div class="features-list">
+                <ul>
+                    <li>Built in editor</li>
+                    <li>Supports all programming languages</li>
+                    <li>Provides offline features</li>
+                    <li>Local webserver</li>
+                    <li>Enhanced built in text-editor</li>
+                    <li>Built in web browser</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-d">
+        <div class="download-content">
+            <div class="close-btn">
+                <button class="close-download">
+                    &times;
+                </button>
+            </div>
+            <div class="a-heading">
+                <h4>Download</h4>
+            </div>
+            <div class="dwnload-info">
+                <p>The Mype Software is not available for download right now<br>
+                You can subscribe and wait for the release date</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="login-cast">
+        <div class="login-cast-grid bg-dark">
+            <div class="mype-login-img">
+                <img src="{{ url_for('static', filename='images/mype_login.PNG') }}" alt="Mype login">
+            </div>
+            <div class="mype-login-text">
+                <p>
+                    Get started for free and enjoy maximum features
+
+                </p>
+                <a href="#getstarted" class="btn get-started-btn-t btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-environment">
+        <div class="work-env-grid bg-light">
+            <div class="work-env-img">
+                <img src="{{ url_for('static', filename='images/emv.PNG') }}" alt="work environment">
+            </div>
+            <div class="work-env-text">
+                <p>
+                    Provides a suitable working environment for users
+                </p>
+                <div class="env-button">
+                    <a href="#download" class="btn download-btn-g btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark">
+        <div class="footer-grid">
+            <div class="get-updates-form bg-light">
+                <form action="" method="POST" onsubmit="displayFlashed()">
+                    <label for="email">Get updates from us</label><br>
+                    <input type="text" name="email" placeholder="Email Address" on class="email"><br>
+                    <input type="submit" value="Subscribe" class="btn subscribe-btn btn-primary">
+                </form>
+            </div>
+            <div class="social-media">
+                <p>Social Media Tags</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <p>Mype software</p>
+                <ul>
+                    <li><a href="#about" class="footer-about">About</a></li>
+                    <li><a href="#faqs" class="footer-faqs">FAQs</a></li>
+                    <li><a href="#features" class="footer-features">Features</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/js_s.js') }}"></script>
+</body>
+</html>

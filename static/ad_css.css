@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-body{
+    width: 100%;
+}
+.login-form{
+    margin: 200px 35%;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+}
+.login-form p{
+    text-align: center;
+    color: orangered;
+    font-family: 'Segoe UI';
+}
+.login-form form input{
+    width: 90%;
+    outline: 0;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+.login-form form input[type='submit']{
+    margin-left: 15px;
+}
+.login-form form label{
+    color: black;
+    font-family: 'Segoe UI';
+}
+@media (max-width: 970px){
+    .login-form{
+        margin: 200px 20%;
+    }
+}
